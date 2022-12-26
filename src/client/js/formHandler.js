@@ -38,7 +38,6 @@ const updateUI = async () => {
        document.getElementById('subjectivity').innerHTML = `Subjectivity: ${allData.subjectivity}`;
        document.getElementById('confidence').innerHTML = `Confidence: ${allData.confidence}`;
        document.getElementById('irony').innerHTML = `Irony: ${allData.irony}`;
-       document.getElementById('model').innerHTML = `Model: ${allData.model}`;
        document.getElementById('score_tag').innerHTML = `Score Tag: ${allData.score_tag}`;
 
    }
